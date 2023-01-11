@@ -14,7 +14,7 @@ app.use(express.urlencoded({extended: true}))
 
 
 app.get('/', (req, res, next) => {
-    res.json({message: 'hello'})
+    res.json({message: 'THIS IS THE HOME ROUTE I LOVE NODEJS'})
 })
 
 app.use('/api', protect, router)
